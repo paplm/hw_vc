@@ -69,6 +69,10 @@ class HomeworksController < ApplicationController
     render json: Homework.first
   end
 
+  def all_json
+    render json: Homework.all
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_homework

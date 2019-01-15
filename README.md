@@ -1,24 +1,12 @@
-# README
+# Homework 14 Jan 2019
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+rails generate scaffold Homework title:string score:integer
 
-Things you may want to cover:
+path GET /homework/html
+  - print html `hello homework`
+path GET /homework/json
+  - print json `Homework.first`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Homework 15 Jan 2019
+print group homework ที่มี column ใหม่ คือ `subject:string` 3 วิชา โดย seed file มา
+url `/homework_all/json`
